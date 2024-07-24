@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:frss="https://freshrss.org/opml" version="2.0">
+  <head>
+    <title>我的订阅</title>
+    <dateCreated>Fri, 22 Mar 2024 13:37:15 +0100</dateCreated>
+  </head>
+  <body>
+    <outline text="未分类">
+      <outline text="@MACSITE" type="rss" xmlUrl="https://blog.ncs.fun/feed?format=xml" htmlUrl="https://blog.ncs.fun/" description="兴趣是学习的动力，学习也能成为消遣！--你愁啥-ncs.fun"/>
+      <outline text="博客 | 支流科技" type="rss" xmlUrl="https://rsshub.rssforever.com/apiseven/blog" htmlUrl="https://www.apiseven.com/blog" description="博客 | 支流科技 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="知乎每日精选" type="rss" xmlUrl="https://www.zhihu.com/rss" htmlUrl="http://www.zhihu.com/" description="中文互联网最大的知识平台，帮助人们便捷地分享彼此的知识、经验和见解。"/>
+      <outline text="科学网 - 精选博文" type="rss" xmlUrl="https://rsshub.rssforever.com/sciencenet/blog/recommend/1" htmlUrl="http://blog.sciencenet.cn/blog.php?mod=recommend&amp;type=list&amp;op=1&amp;ord=1" description="科学网 - 精选博文 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    </outline>
+    <outline text="博客">
+      <outline text="Dejavu's Blog" type="rss" xmlUrl="https://blog.dejavu.moe/index.xml" htmlUrl="https://blog.dejavu.moe/" description="Recent content on Dejavu's Blog"/>
+      <outline text="EdNovas的小站" type="rss" xmlUrl="https://ednovas.xyz/atom.xml" htmlUrl="" description=""/>
+      <outline text="Elmagnifico's Blog" type="rss" xmlUrl="http://elmagnifico.tech/feed.xml" htmlUrl="https://elmagnifico.tech/" description="后端与嵌入式、maya与游戏 | elmagnifico， Back-end engineer &amp; Embedded System Lover | 这里是elmagnifico的个人博客，君子之交淡如水。"/>
+      <outline text="enpitsulin" type="rss" xmlUrl="https://enpitsulin.xyz/rss.xml" htmlUrl="https://enpitsulin.xyz/" description="Keep young keep simple"/>
+      <outline text="est の 输入输出" type="rss" xmlUrl="https://feeds.feedburner.com/initiative" htmlUrl="https://blog.est.im/" description="This blog is rated 🔞, viewer discretion is advised"/>
+      <outline text="Seven's blog" type="rss" xmlUrl="https://blog.diqigan.cn/atom.xml" htmlUrl="https://blog.diqigan.cn/" description="你不会找到路，除非你敢于迷路"/>
+      <outline text="sleele的博客" type="rss" xmlUrl="https://sleele.com/feed/" htmlUrl="https://sleele.com/" description=""/>
+      <outline text="云游君的小站" type="rss" xmlUrl="https://yunyoujun.cn/atom.xml" htmlUrl="https://www.yunyoujun.cn/" description="希望能成为一个有趣的人"/>
+      <outline text="刘悦的技术博客" type="rss" xmlUrl="https://v3u.cn/sitemap.xml" htmlUrl="https://v3u.cn/" description="学习研究python能做什么以及如何能做的更好，关注互联网行业相关技术，浸淫web开发技术。"/>
+      <outline text="唐巧的博客" type="rss" xmlUrl="http://blog.devtang.com/atom.xml" htmlUrl="https://blog.devtang.com/" description="记录下自己学习的点滴"/>
+      <outline text="夜光LOEN" type="rss" xmlUrl="https://loen.xlog.app/feed?format=xml" htmlUrl="https://loen.xlog.app/" description="👨🏻‍💻热爱开源的前端小菜鸟 | 🆓喜欢开源和白嫖 | 🐋喜欢摸鱼"/>
+      <outline text="山炮不二" type="rss" xmlUrl="https://xsinger.me/feed/" htmlUrl="https://xsinger.me/" description="一只西去而旋转的飞鸟"/>
+      <outline text="我不是咕咕鸽" type="rss" xmlUrl="https://blog.laoda.de/atom.xml" htmlUrl="https://blog.laoda.de/" description="VPS折腾不完全记录"/>
+      <outline text="我的博客" type="rss" xmlUrl="https://www.haomeng.life/index.xml" htmlUrl="https://markfour.vercel.app/" description="Recent content on 记否"/>
+      <outline text="晚晴幽草轩" type="rss" xmlUrl="https://www.jeffjade.com/atom.xml" htmlUrl="https://www.jeffjade.com/" description="It's only too late if you decide it is. Get busy living. or get busy dying!"/>
+      <outline text="王垠的博客（反智的、需辨别）" type="rss" xmlUrl="https://rsshub.rssforever.com/blogs/wangyin" htmlUrl="https://www.yinwang.org/" description="王垠的博客 - 当然我在扯淡 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="王帅真的BLOG" type="rss" xmlUrl="https://blog.qizong007.top/rss/feed.xml" htmlUrl="https://blog.qizong007.top/" description="这是一个由NotionNext生成的站点"/>
+      <outline text="瓦解的生活记事" type="rss" xmlUrl="https://hin.cool/atom.xml" htmlUrl="https://hin.cool/" description=""/>
+      <outline text="程序员的喵" type="rss" xmlUrl="https://catcoding.me/atom.xml" htmlUrl="http://catcoding.me/" description=""/>
+      <outline text="胡涂说" type="rss" xmlUrl="https://hutusi.com/feed.xml" htmlUrl="https://hutusi.com/" description="hutusi.com"/>
+      <outline text="豌豆花下猫" type="rss" xmlUrl="https://pythoncat.top/rss.xml" htmlUrl="https://pythoncat.top/" description="Python编程、生活随笔、个人作品，公众号“Python猫”"/>
+    </outline>
+    <outline text="技术宅">
+      <outline text="AIGC Weekly" type="rss" xmlUrl="https://quail.ink/op7418/feed/atom" htmlUrl="https://quail.ink/op7418/feed/atom" description="每周一更新，主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果"/>
+      <outline text="Barry" type="rss" xmlUrl="https://x.yct.ee/feed" htmlUrl="https://x.yct.ee/" description="偶尔摆烂，经常偶尔."/>
+      <outline text="BestXTools" type="rss" xmlUrl="https://geeknote.net/bestxtools/feed.atom" htmlUrl="https://geeknote.net/bestxtools" description="好工具周刊 - 发现并分享有趣，有创意，免费、好用的工具，每周四发布。"/>
+      <outline text="Crypto Chasers" type="rss" xmlUrl="https://cryptochasers.xlog.app/feed" htmlUrl="https://cryptochasers.xlog.app/" description="A DAO helping new Web3 projects and users grow."/>
+      <outline text="DTO: Newest Stories" type="rss" xmlUrl="https://dto.pipecraft.net/newest.rss" htmlUrl="https://dto.pipecraft.net/" description="Newest Stories"/>
+      <outline text="endercat" type="rss" xmlUrl="https://endercat.ir/feed" htmlUrl="https://endercat.ir/" description="某个白嫖怪的分享博客&#10;现已迁移到 https://endercat.eu.org&#10;请前往该URL查看最新文章"/>
+      <outline text="Go语言中文网 - Go周刊" type="rss" xmlUrl="https://rsshub.app/studygolang/go/weekly" htmlUrl="https://studygolang.com/go/weekly" description="Go语言中文网 - Go周刊 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="HelloGithub - 月刊" type="rss" xmlUrl="https://rsshub.rssforever.com/hellogithub/volume" htmlUrl="" description=""/>
+      <outline text="liuyuxin" type="rss" xmlUrl="https://liuyu.xin/feed" htmlUrl="https://liuyu.xin/" description="想成为独立开发者的在读医学生！"/>
+      <outline text="MDH Weekly 前端周刊" type="rss" xmlUrl="https://mdhweekly.com/rss.xml" htmlUrl="https://mdhweekly.com/" description="MDH Weekly 前端周刊"/>
+      <outline text="MisakaNo の 小破站" type="rss" xmlUrl="https://blog.misaka.rest/atom.xml" htmlUrl="https://blog.misaka.rest/" description="这只是一个小破站而已！"/>
+      <outline text="Shiina's Bulog" type="rss" xmlUrl="https://blog.shiina.fun/feed/" htmlUrl="https://blog.shiina.fun/" description="VPS, 免费空间, 免费资源的自留地"/>
+      <outline text="Track Free for Dev Updates Daily" type="rss" xmlUrl="https://www.trackawesomelist.com/ripienaar/free-for-dev/rss.xml" htmlUrl="https://www.trackawesomelist.com/ripienaar/free-for-dev/feed.json" description="A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev"/>
+      <outline text="v1tx - 发现实用工具与软件" type="rss" xmlUrl="https://rsshub.rssforever.com/v1tx" htmlUrl="https://www.v1tx.com/" description="v1tx.com 专注于发现新应用，推荐各种效率工具、软件、APP，包括Windows、Mac、Android、iOS、网页等多平台应用，让每个人找到适合的软件并掌握使用技巧 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="xLog Latest" type="rss" xmlUrl="https://xlog.app/feed/hottest?interval=30" htmlUrl="https://xlog.app/" description=""/>
+      <outline text="二丫讲梵" type="rss" xmlUrl="https://wiki.eryajf.net/rss.xml" htmlUrl="https://wiki.eryajf.net/" description="💻学习📝记录🔗分享&#10;学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。"/>
+      <outline text="免费资源网" type="rss" xmlUrl="https://www.freeaday.com/feed/" htmlUrl="" description=""/>
+      <outline text="冷板凳周刊" type="rss" xmlUrl="https://weekly.lenband.com/rss.xml" htmlUrl="https://weekly.lenband.com/" description="分享有意思的生活、知识及其他"/>
+      <outline text="奇舞周刊" type="rss" xmlUrl="https://weekly.75.team/rss" htmlUrl="https://weekly.75.team/" description="领略前端技术，阅读奇舞周刊"/>
+      <outline text="妙才Dev" type="rss" xmlUrl="https://blog-dev27149.vercel.app/api/rss" htmlUrl="https://blog-dev27149.vercel.app/" description="web developer blog."/>
+      <outline text="小棉袄的百味人生" type="rss" xmlUrl="https://haikuoshijie.cn/atom.xml" htmlUrl="https://haikuoshijie.cn/" description="小棉袄的博客，嗅觉浏览器、海阔视界开发者的博客"/>
+      <outline text="打工人日志 - jobcher" type="rss" xmlUrl="https://www.jobcher.com/index.xml" htmlUrl="https://www.jobcher.com/" description="Recent content on 打工人日志"/>
+      <outline text="拾月" type="rss" xmlUrl="https://www.skyue.com/feed/" htmlUrl="https://www.skyue.com/" description="晚来天欲雪，能饮一杯无。"/>
+      <outline text="月球背面" type="rss" xmlUrl="https://moonvy.com/blog/rss.xml" htmlUrl="https://moonvy.com/blog" description="月维的创造者们对「设计」和「开发」的思考与讨论"/>
+      <outline text="潮流周刊" type="rss" xmlUrl="https://weekly.tw93.fun/rss.xml" htmlUrl="https://weekly.tw93.fun/" description="记录工程师 Tw93 的不枯燥生活"/>
+      <outline text="老王分享-记录生活" type="rss" xmlUrl="https://coo.st/rss.xml" htmlUrl="https://coo.st/" description="分享一切有趣的,有意思的技术,领悟,见闻等等"/>
+      <outline text="老胡的周刊" type="rss" xmlUrl="https://weekly.howie6879.com/rss/rss.xml" htmlUrl="https://weekly.howie6879.com/" description="老胡的信息周刊，每周记录我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个留存以及共享。"/>
+      <outline text="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="http://www.ruanyifeng.com/blog/" description="Ruan YiFeng's Blog"/>
+      <outline text="阿拉丁神灯" type="rss" xmlUrl="https://www.aldsd.com/feed" htmlUrl="https://www.aldsd.com/" description="免费、实用、有趣的资源网站！"/>
+      <outline text="阿猫的博客" type="rss" xmlUrl="https://ameow.xyz/rss.xml" htmlUrl="https://ameow.xyz/" description="Code for fun, and for ever."/>
+      <outline text="龙爪槐守望者" type="rss" xmlUrl="https://www.ftium4.com/rss.xml" htmlUrl="https://www.ftium4.com/" description="一个帮助交互设计师成长的互联网传说。做任何事情都只是因为兴趣罢了"/>
+    </outline>
+    <outline text="新闻">
+      <outline text="iDaily 每日环球视野" type="rss" xmlUrl="https://rsshub.rssforever.com/idaily/today" htmlUrl="https://docs.rsshub.app/" description="iDaily 每日环球视野 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="中国新闻周刊--时政" type="rss" xmlUrl="https://rsshub.rssforever.com/inewsweek/politics" htmlUrl="http://news.inewsweek.cn/politics" description="中国新闻周刊--时政 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="人民日报" type="rss" xmlUrl="https://plink.anyfeeder.com/weixin/rmrbwx" htmlUrl="http://weixin.sogou.com/weixin?type=1&amp;s_from=input&amp;query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5" description="参与、沟通、记录时代。"/>
+      <outline text="全球 - 新闻 - 华人头条" type="rss" xmlUrl="https://rsshub.rssforever.com/52hrtt/global" htmlUrl="https://www.52hrtt.com/global/n/w" description="全球 - 新闻 - 华人头条 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="南方周末-新闻" type="rss" xmlUrl="https://rsshub.app/infzm/2" htmlUrl="http://www.infzm.com/contents?term_id=2" description="南方周末-新闻 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="抽屉新热榜" type="rss" xmlUrl="https://plink.anyfeeder.com/chouti/hot" htmlUrl="https://m.chouti.com/all/hot" description="抽屉新热榜，汇聚每日搞笑段子、热门图片、有趣新闻。它将微博、门户、社区、bbs、社交网站等海量内容聚合在一起，通过用户推荐生成最热榜单。看抽屉新热榜，每日热门、有趣资讯尽收眼底。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="新华社新闻_新华网" type="rss" xmlUrl="https://rsshub.rssforever.com/news/whxw" htmlUrl="http://www.news.cn/whxw.htm" description="新华社新闻_新华网 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="最新 - 快科技" type="rss" xmlUrl="https://rsshub.rssforever.com/mydrivers/new" htmlUrl="https://m.mydrivers.com/newsclass.aspx?ac=new" description="最新 - 快科技 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="生信爱好者周刊" type="rss" xmlUrl="https://openbiox.github.io/weekly/feed_rss_created.xml" htmlUrl="https://openbiox.github.io/weekly/" description="记录每周值得分享的生信相关内容，周日发布。"/>
+      <outline text="虎嗅网 - 首页资讯" type="rss" xmlUrl="https://rsshub.rssforever.com/huxiu/article" htmlUrl="https://www.huxiu.com/article/" description="聚合优质的创新信息与人群，捕获精选 | 深度 | 犀利的商业科技资讯。在虎嗅，不错过互联网的每个重要时刻。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    </outline>
+    <outline text="竹白">
+      <outline text="1Link.Fun" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/happyfire?limit=5" htmlUrl="https://happyfire.zhubai.love/" description="欢迎访问。 这里是 1Link.Fun, 我会在这里每周更新 10 条有趣的链接, 主要包含: 科技新闻 网站推荐 工具推荐 偶尔推荐一些图片 / 视频. 取名为 1Link 是想做成类似 《意林》 这样的杂志，让你在闲暇之余消磨一下时间。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="BLUE·周刊" type="rss" xmlUrl="https://rsshub.app/zhubai/huazi" htmlUrl="https://huazi.zhubai.love/" description="在信息爆炸的互联网总能发现许多碎片化信息，本刊记录我每周发现的有趣设计、实用资源、文章资讯等有关设计的一切。希望每周我眼中的设计也可以帮助到你。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="Bytes by Alfred" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/alfxjx?limit=5" htmlUrl="https://alfxjx.zhubai.love/" description="编程技术，界面设计，大前端技术前沿，生活方式和咖啡。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="DecoHack周刊" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/decohack?limit=5" htmlUrl="https://decohack.zhubai.love/" description="为独立创造者提供独立见解，帮助你发现新产品方向，启动和完善你的项目。 内容包含：新闻洞察、行业分析、文章推荐、工具分享、下饭视频。内容涉及：产品运营、市场分析、软件设计、技术开发、生活方式 每周更新 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="FE news" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/rottenpen?limit=5" htmlUrl="https://rottenpen.zhubai.love/" description="分享前端，生活，我的周报～ 做梦都想去米哈游（可惜去字节跳动不用做梦 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="互联网时代的搜商" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/search?limit=5" htmlUrl="https://search.zhubai.love/" description="关于搜索技巧的种种，做一个互联网淘金者、生活黑客 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="偷懒爱好者周刊" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/toolight?limit=5" htmlUrl="https://toolight.zhubai.love/" description="偷懒爱好者周刊，分享产品、工具、新鲜事，每周三发布 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="前端食堂" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/hungryturbo?limit=5" htmlUrl="https://hungryturbo.zhubai.love/" description="周周尝鲜，人工筛选前端圈每周最新资讯。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="啰里啰唆" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/luoliluosuo?limit=5" htmlUrl="https://luoliluosuo.zhubai.love/" description="啰里啰唆是一份针对互联网和生活爱好者的数字杂志，旨在发现和分享一切有趣的东西。部分内容来自互联网采编，也有一些是编者本人的思考和短文，话题不固定，每期大约十五分钟阅读量，暂定每周四发布。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="山甫樂 Saan Flare" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/speciouspm?limit=5" htmlUrl="https://speciouspm.zhubai.love/" description="通过观察去理解，借助表达以存在。尝试去感知正在发生的事情。关注产品设计，用户体验，交互设计以及 AIGC - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="机器文摘" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/niupitools?limit=5" htmlUrl="https://niupitools.zhubai.love/" description="定期分享我看到的有趣的内容（不一定是最新的，但是有意思），因为大部分都与机器有关，所以先叫它“机器文摘（MachineDigest）”吧。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+      <outline text="棒棒彬·技术参考周刊" type="rss" xmlUrl="https://rsshub.rssforever.com/zhubai/techly?limit=5" htmlUrl="https://techly.zhubai.love/" description="分享个人技术见闻，棒棒彬的第二大脑增量突触 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    </outline>
+  </body>
+</opml>
