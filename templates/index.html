@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+{% set data = load_data(path="content/my_list.json") %}
+<h1>今日有更新</h1>
+<div class="container">
+    {% for lists in data %}
+        {% for list in lists %}
+            {% if list.success %}
+                {% if list.istoday %}
+                <div class="list">
+                    <div class="left">
+                        <div class="sitename">◉ {{list['site-title']}}</div>
+                    </div>
+                    <div class="middle">
+                        <div class="title">{{list.title}}</div>
+                    </div>
+                    <div class="right">
+                        <span class="published">{{list.published}}</span>
+                        <a href="{{list.link}}"  target="_blank">
+                            <img class="svg" src="./web.svg" alt="" srcset="">
+                        </a>  
+                    </div>
+                </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}    
+    {% endfor %}
+</div>
+{% endblock content %}

@@ -1,0 +1,48 @@
+:root {
+    color: #606266;
+}
+h1 {
+    margin-left: 2rem;
+}
+.container {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #F2F6FC;
+}
+.list {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #909399;
+    .title {
+        font-size: 1.5rem;
+        width: 50rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .left {
+        width: 12rem;
+        display: flex;
+        align-items: center;
+        .sitename {
+            width: 12rem;
+            margin: auto;
+        }
+    }
+    .right {
+        display: flex;
+        align-items: center;
+    }
+    .published {
+        color: #909399;
+    }
+
+}
+.svg {
+    width: 1.5rem;
+    height: auto;
+    margin-left: 0.5rem;
+}

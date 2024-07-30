@@ -1,22 +1,11 @@
 import feedparser
 import requests
 import json
-from dateutil import parser
-from datetime import datetime, timezone
+from dateutil import parser, tz
+from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
-
-def standardize_times(time_str):
-    try:
-            # 解析时间字符串
-        dt = parser.parse(time_str)
-            # 格式化为ISO 8601格式
-        standardized_time = dt.strftime('%Y-%m-%dT%H:%M:%SZ')
-
-        return standardized_time
-    except ValueError as e:
-           return time_str
+# 读取订阅文件
 def read_xml_file(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
@@ -24,18 +13,51 @@ def read_xml_file(file_path):
     urls = []
 
     for child in body:
+        classify = child.attrib['text']
+        if classify == '博客' or classify == '技术宅' or classify == '竹白':
+            important = True
+        else:
+            important = False
         for sub_child in child:
-            urls.append(sub_child.attrib['xmlUrl'])
+            url = sub_child.attrib['xmlUrl']
+            urls.append({'important': important, 'url': url})
     return urls
-def is_today(time_str):
-    return datetime.now(timezone.utc).date() == datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%SZ').date()
+
+def standardize_times(time_str):
+    try:
+        dt = parser.parse(time_str)
+        standardized_time = dt.strftime('%Y-%m-%dT%H:%M:%SZ')
+        return standardized_time
+    except ValueError as e:
+        return time_str
+
+def is_today(date_str):
+    try:
+        today = get_today()
+        yesterday = today - timedelta(days=1)
+        date_str = date_str.split("T", 1)[0]
+        test_date = datetime.strptime(date_str, '%Y-%m-%d').date()
+        
+        if test_date == today:
+            return True
+        elif test_date == yesterday:
+            return False
+        else:
+            return 'no'
+    except ValueError:
+        print(f"Invalid date format: {date_str}")
+
+
+def get_today():
+    return datetime.now(tz=tz.tzlocal()).date()
 
 def parser_rss_r(rss):
     res = []
+    url = rss['url']
+    important = rss['important']
     try:
         icon = title = ''
-        i = 0
-        response = requests.get(rss, timeout=10)
+        response = requests.get(url, timeout=10)
         response.raise_for_status() 
         # 将获取的内容传递给feedparser解析
         rss_feed = feedparser.parse(response.content)
@@ -44,22 +66,29 @@ def parser_rss_r(rss):
         if 'title' in rss_feed.feed:
             title = rss_feed.feed.title
         for entry in rss_feed.entries:
+            if 'published' in entry:
+                published = entry.published
+                t = standardize_times(published)
+                istoday = is_today(t)
+            else:
+                t = '未知'
+                istoday = 'no'
+            if istoday == 'no':
+                continue
             text = {
                 'success': True,
+                'important': important,
                 'icon': icon,
                 'site-title': title,
-                'istoday': is_today(standardize_times(entry.published)),
+                'istoday': istoday,
                 'title': entry.title,
                 'link': entry.link,
-                'published': standardize_times(entry.published),
+                'published': t,
                 'summary': entry.summary,
                 'summary_detail': entry.get('summary_detail', {}).get('value', 'null'),
                 'content': entry['content'][0].get('value', None) if entry.get('content') and len(entry['content']) > 0 else 'null'
             }
             res.append(text)
-            i += 1
-            if i > 3:
-                break
     except requests.exceptions.Timeout:
         return [{'success': False, 'error': 'Timeout'}]
     except requests.exceptions.HTTPError as e:
@@ -69,25 +98,14 @@ def parser_rss_r(rss):
     return res
 
 def output_json(results):
-    with open('my_list.json', 'w') as json_file:
+    with open('content/my_list.json', 'w', encoding='utf-8') as json_file:
         json.dump(results, json_file, ensure_ascii=False)
 
 if __name__ == '__main__':
     urls = read_xml_file('feed.xml')
-    threads = []
-    results = []
-  
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        # 提交所有URL到线程池
-        future_to_url = {executor.submit(parser_rss_r, url): url for url in urls}
-        
-        for future in as_completed(future_to_url):
-            url = future_to_url[future]
-            try:
-                data = future.result()
-            except Exception as exc:
-                print(f'{url} generated an exception: {exc}')
-            else:
-                # print(f'{url} page is {data}')
-                results.append(data)
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = [executor.submit(parser_rss_r, url) for url in urls]
+        results = []
+        for future in as_completed(futures):
+            results.extend(future.result())
     output_json(results)

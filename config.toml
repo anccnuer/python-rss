@@ -1,0 +1,10 @@
+# The URL the site will be built for
+base_url = "https://news.coms.ng"
+compile_sass = true
+build_search_index = false
+title = 'rss聚合'
+[markdown]
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
